@@ -73,6 +73,5 @@ def run_all():
     print(f"OVERALL SUCCESS RATE: {overall_rate:.2f}%")
     print("="*70)
 
-
 if __name__ == "__main__":
     run_all()
