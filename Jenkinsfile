@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                timeout(time: 5, unit: 'MINUTES') {
+timeout(time: 1, unit: 'MINUTES') {
                     bat '"C:\\Program Files\\Python314\\python.exe" run_all_tests.py'
                 }
             }
